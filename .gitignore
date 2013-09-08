@@ -15,6 +15,9 @@
 /log/*.log
 /tmp
 
+# Ignore files per Capistrano docs.
+database.yml
+
 # Ignore other unneeded files.
 database.yml
 doc/
