@@ -1,6 +1,6 @@
 set :application, "first-app.changecase.net"
 set :repository, "git@github.com:changecase/first-app.git"
-set :domain, 'rigel.dreamhost.com'                                # dreamhost servername where account is located
+set :domain, 'changecase.net'                                # dreamhost servername where account is located
 
 set :user, 'changecase'                                           # dreamhost account's username
 set :project, '#{application}'                                    # application as its called in the repository
