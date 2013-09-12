@@ -3,9 +3,9 @@ set :repository, "git@github.com:changecase/first-app.git"
 set :domain, 'changecase.net'                                # dreamhost servername where account is located
 
 set :user, 'changecase'                                           # dreamhost account's username
-set :project, '#{application}'                                    # application as its called in the repository
+set :project, "#{application}"                                    # application as its called in the repository
 set :scm, :git
-set :applicationdir, '/home/#{user}/#{application}'               # the standard dreamhost setup
+set :applicationdir, "/home/#{user}/#{application}"               # the standard dreamhost setup
 
 # set :scm, :git # You can set :scm explicitly or Capistrano will make an intelligent guess based on known version control directory names
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
