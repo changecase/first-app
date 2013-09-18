@@ -25,7 +25,7 @@ set :scm_verbose, true
 set :keep_releases, 5
 
 default_run_options[:pty] = true                       # forgo errors when deploying from windows
-ssh_options[:keys] = %w(/home/changecase/.ssh/id_rsa)  # if you are using ssh_keys... and I am!
+ssh_options[:keys] = %w(/home/changecase/.ssh/id_rsa.pb)  # if you are using ssh_keys... and I am!
 set :chmod755, "app config db lib public vendor script script/* public/disp*"
 set :use_sudo, false
 
